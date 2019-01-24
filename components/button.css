@@ -1,10 +1,14 @@
+:root {
+  --textColor: yellow;
+}
 .button {
-  -webkit-appearance: none;
-  border: 1px solid #fco;
+  border: 1px solid #fc0;
   font-family: sans-serif;
   font-size: 15px;
   padding: 10px 20px;
 }
+
 .custom {
   background-color: var(--special);
+  color: var(--textColor);
 }
