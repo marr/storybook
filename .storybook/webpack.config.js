@@ -12,10 +12,15 @@ module.exports = (storybookBaseConfig, configType, defaultConfig) => {
       {
         loader: 'style-loader',
         options: {
-          hmr: true
+          hmr: true,
         }
       },
-      'css-loader',
+      {
+        loader: 'css-loader',
+        options: {
+          modules: true,
+        }
+      },
       'postcss-loader'
     ]
   }
